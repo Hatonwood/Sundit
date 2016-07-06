@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rootlayout"
+        android:layout_marginBottom="53.0dp">
+    <!-- 1st row as Username for self moral and defenitions || end right of the bar as a refresh status and moral update -->
+        <TableRow
+            android:id="@+id/Portrait">
+            <ImageButton
+                android:id="@+id/profilepic" />
+            <Space />
+            <TextView
+                android:id="@+id/username" />
+            <ImageButton
+                android:id="@+id/properties" />
+            <Space />
+            <ImageButton
+                android:id="@+id/refresh" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
