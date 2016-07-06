@@ -12,19 +12,20 @@
         android:layout_height="wrap_content"
         android:id="@+id/rootlayout"
         android:layout_marginBottom="53.0dp">
-    <!-- 1st row as Username for self moral and defenitions || end right of the bar as a refresh status and moral update -->
-        <TableRow
-            android:id="@+id/Portrait">
-            <ImageButton
-                android:id="@+id/profilepic" />
+    
+      <!-- 1st row as Username for self moral and defenitions || end right of the bar as a refresh status and moral update -->
+        <TableRow android:id="@+id/Portrait">
+            <ImageButton android:id="@+id/profilepic"/>
             <Space />
-            <TextView
-                android:id="@+id/username" />
-            <ImageButton
-                android:id="@+id/properties" />
+            <TextView    android:id="@+id/username"/>
+            <ImageButton android:id="@+id/properties"/>
             <Space />
-            <ImageButton
-                android:id="@+id/refresh" />
+            <ImageButton android:id="@+id/refresh"/>
         </TableRow>
+    
+      <!-- 2nd Row includes a second layout where the media is gonna be shown -->
+      <TableRow
+        android:id="@+id/media" >
+      </TableRow>
     </TableLayout>
 </LinearLayout>

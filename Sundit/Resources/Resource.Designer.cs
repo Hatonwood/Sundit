@@ -79,6 +79,9 @@ namespace Sundit
 			// aapt resource value: 0x7f070001
 			public const int Portrait = 2131165185;
 			
+			// aapt resource value: 0x7f070006
+			public const int media = 2131165190;
+			
 			// aapt resource value: 0x7f070002
 			public const int profilepic = 2131165186;
 			
@@ -109,6 +112,9 @@ namespace Sundit
 			
 			// aapt resource value: 0x7f030000
 			public const int Main = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int properties = 2130903041;
 			
 			static Layout()
 			{
