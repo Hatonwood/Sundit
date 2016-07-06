@@ -34,7 +34,7 @@ namespace Sundit
             //properties.SetImageResource;
 
             //refresh Timeline
-            //query to the server
+            //
         }
     }
 }

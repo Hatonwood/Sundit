@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Strings Main-->
     <string name="AppName">Sundit</string>
+    
+  
+    <!-- Strings Properties-->
 </resources>
